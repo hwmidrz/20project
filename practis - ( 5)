@@ -1,0 +1,20 @@
+lst = [3, 0, 1, 5, 2]
+x = 2
+
+#(a) lst[0]?
+print(3)
+#(b) lst[3]?
+print(5)
+#(c) lst[x]?
+print(1)
+#(d) lst[-x]?
+print(5)
+#(e) lst[x + 1]?
+print(5)
+#(f) lst[x] + 1?
+print(1+1)
+#(g) lst[lst[x]]?
+print(0)
+#(h) lst[lst[lst[x]]]?
+print(3)
+
