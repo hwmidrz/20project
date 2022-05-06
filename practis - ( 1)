@@ -1,0 +1,18 @@
+lst = [10, -4, 11, 29]
+#(a) What expression represents the very first element of lst?
+print(lst[0])
+#(b) What expression represents the very last element of lst?
+print(lst[-1])
+
+#(c) What is lst[0]?
+print(lst[0])
+#(d) What is lst[3]?
+print(lst[3])
+#(e) What is lst[1]?
+print(lst[1])
+#(f) What is lst[-1]?
+print(lst[-1])
+#(g) What is lst[-4]?
+print(lst[-4])
+#(h) Is the expression lst[3.0] legal or illegal?
+print("illegal")
