@@ -1,0 +1,11 @@
+ylist = ['hamidreza ', 'zahedi', 2000, 2022]
+
+
+def reverse(mylist):
+    mylist2 = []
+    for item in mylist:
+        mylist2.insert(0, item)
+    return mylist2
+
+
+print(reverse(mylist))
