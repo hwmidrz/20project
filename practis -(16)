@@ -1,0 +1,9 @@
+lst = [3,5,4,-1,0]
+def count_evens(lst):
+    sum_evens=0
+    for x in lst:
+        if x%2==0:
+            sum=sum_evens+1
+            print(sum)
+
+count_evens(lst)
