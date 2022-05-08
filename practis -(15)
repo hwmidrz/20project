@@ -1,0 +1,6 @@
+def sum_passetive(x):
+    sum=0
+    for i in sum_passetive(x):
+        if i>0:
+            sum=sum+i
+            print(sum)
