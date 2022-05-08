@@ -1,0 +1,14 @@
+lst = [1, 2, 3, 4, 5, 6]
+num = 2
+
+
+def print_big_enough(lst, num):
+    sliced_lst = []
+    for i in lst:
+        if i >= num:
+            sliced_lst += [i]
+
+    print(sliced_lst)
+
+
+print_big_enough(lst, num)
